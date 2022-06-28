@@ -18,6 +18,8 @@ Syntax highlighted code block
 - Bulleted
 - List
 
+$$\int \sin x\,dx$$
+
 1. Numbered
 2. List
 
