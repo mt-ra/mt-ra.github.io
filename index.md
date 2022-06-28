@@ -8,6 +8,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+$$\int \sin x\,dx$$
+
 ```markdown
 Syntax highlighted code block
 
@@ -17,8 +19,6 @@ Syntax highlighted code block
 
 - Bulleted
 - List
-
-$$\int \sin x\,dx$$
 
 1. Numbered
 2. List
