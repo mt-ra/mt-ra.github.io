@@ -1,6 +1,8 @@
+---
 layout: page
-title: "resources"
-permalink: /resources/
+title: "about"
+permalink: /about/
+---
 
 ## Hello
 Hello world $\displaystyle \int \sin x \ dx$
