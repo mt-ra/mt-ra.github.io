@@ -4,24 +4,38 @@
 
 body {
     margin : 0px;
+
     background-color: rgb(39, 34, 52);
+}
+
+.header {
+    margin: 0px;
+
+    background-color: rgb(64, 70, 75);
 }
 
 .navbar {
     background-color: aquamarine;
     display: flex;
     margin: 0px;
-    /*height: 40px;*/
 
     list-style: none;
 }
 
 .navbar.link {
-    margin-top: 0px;
-    margin-left: 10px;
-    padding: 20px;
     text-align: center;
+    justify-content: center;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    padding: 25px;
+    
     background-color: rgb(236, 207, 240);
+
+    flex: 0.5;
 }
 
 h1 {
