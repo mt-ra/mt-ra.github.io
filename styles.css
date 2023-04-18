@@ -14,28 +14,34 @@ body {
     background-color: rgb(64, 70, 75);
 }
 
-.navbar {
+.header .navbar {
     background-color: aquamarine;
+    width: 100%;
     display: flex;
-    margin: 0px;
 
     list-style: none;
 }
 
-.navbar.link {
-    text-align: center;
-    justify-content: center;
-    
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 10px;
-    margin-left: 10px;
-    
-    padding: 25px;
-    
-    background-color: rgb(236, 207, 240);
+.navbar a {
+    padding: 20px;
+    background-color: rgb(244, 137, 137);
 
-    flex: 0.5;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.navbar a {
+    padding: 20px 50px;
+}
+
+.navbar a:hover {
+    background-color: black;
+}
+
+.navbar .home{
+    flex-grow: 4;
+    flex-shrink: 3;
 }
 
 h1 {
