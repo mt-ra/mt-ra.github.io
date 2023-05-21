@@ -14,7 +14,7 @@ body {
     background-color: rgb(64, 70, 75);
 }
 
-.header .navbar {
+.navbar {
     background-color: aquamarine;
     width: 100%;
     display: flex;
@@ -22,27 +22,76 @@ body {
     list-style: none;
 }
 
-.navbar a {
-    padding: 20px;
-    background-color: rgb(244, 137, 137);
-
-    flex-grow: 1;
-    flex-shrink: 1;
+.navbar .logo h1 {
+    color: black;
+    flex-grow: 0;
+    flex-shrink: 0;
     flex-basis: auto;
 }
 
 .navbar a {
-    padding: 20px 50px;
+    text-decoration: none;
+
+    color: black;
+
+    padding: 20px;
+    background-color: rgb(244, 137, 137);
+
+    border-radius: 10px;
+
+    justify-content: space-between;
+    text-align: center;
+
+    flex-grow:1;
+    flex-shrink: 1;
+    flex-basis: auto;
 }
 
 .navbar a:hover {
     background-color: black;
+    color: white;
 }
 
 .navbar .home{
     flex-grow: 4;
     flex-shrink: 3;
 }
+
+.bob {
+    display: flex;
+    justify-content: space-around;
+    /*align-items: center;*/
+    background-color: black;
+    padding: 10px;
+}
+
+.alan {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+.containerthing {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+    width:220px;
+    background-color: white;
+}
+
+.name {
+    flex-grow: 2;
+}
+
+.email {
+    flex-grow: 3;
+}
+
+.submit {
+    flex-grow: 1;
+}
+
 
 h1 {
     color: aliceblue;
