@@ -5,51 +5,66 @@
 body {
     margin : 0px;
 
-    background-color: rgb(39, 34, 52);
+    background-color: rgb(255, 255, 255);
 }
 
 .header {
     margin: 0px;
-
-    background-color: rgb(64, 70, 75);
+    background-color: rgb(255, 255, 255);
 }
 
 .navbar {
-    background-color: aquamarine;
+    background-image: linear-gradient(to right, rgb(245, 168, 255) , rgb(161, 177, 255));
     width: 100%;
     display: flex;
 
     list-style: none;
+
 }
 
-.navbar .logo h1 {
+.logo {
+    padding-left: 20px;
     color: black;
-    flex-grow: 0;
+    flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: auto;
+    flex-basis: 20px;
 }
 
-.navbar a {
+.logolink {
+    display: inline-block;
+    width: 100px;
+}
+
+.navbar a:visited {
+    color: black;
+}
+
+.navbar .portfolio {
     text-decoration: none;
 
     color: black;
 
-    padding: 20px;
-    background-color: rgb(244, 137, 137);
+    padding: 10px;
 
-    border-radius: 10px;
-
-    justify-content: space-between;
-    text-align: center;
-
-    flex-grow:1;
+    flex-grow:0;
     flex-shrink: 1;
-    flex-basis: auto;
+    flex-basis: 100px;
+}
+
+.navbar .artwork {
+    text-decoration: none;
+
+    color: black;
+
+    padding: 10px;
+
+    flex-grow:0;
+    flex-shrink: 1;
+    flex-basis: 100px;
 }
 
 .navbar a:hover {
-    background-color: black;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.192);
 }
 
 .navbar .home{
@@ -57,46 +72,49 @@ body {
     flex-shrink: 3;
 }
 
-.bob {
-    display: flex;
-    justify-content: space-around;
-    /*align-items: center;*/
-    background-color: black;
-    padding: 10px;
-}
-
-.alan {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 1;
-}
-
-.containerthing {
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
-
-    width:220px;
-    background-color: white;
-}
-
-.name {
-    flex-grow: 2;
-}
-
-.email {
-    flex-grow: 3;
-}
-
-.submit {
-    flex-grow: 1;
-}
-
-
 h1 {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 p {
-    color: beige;
+    color: rgb(0, 0, 0);
+}
+
+.introduction {
+    display: flex;
+}
+
+.introleft {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.introright {
+    flex-grow: 0;
+    flex-shrink: 2;
+    flex-basis: auto;
+}
+
+.welcome {
+    display: flex;
+}
+.introduction .introleft .welcome .funsymbol {
+    font-size: 50px;
+    color: black;
+    width: 40px;
+    flex-shrink: 0;
+}
+.introduction .introleft .welcome .welcomemsg {
+    font-size: 50px;
+    background: linear-gradient(to right,#e58fff, #6fbbe3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.mainbody {
+    padding-top: 10px;
+    padding-left: 40px;
 }
