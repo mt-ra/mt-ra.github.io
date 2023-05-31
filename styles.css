@@ -82,11 +82,12 @@ p {
 
 .introduction {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .introleft {
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex-grow: 0;
+    flex-shrink: 3;
     flex-basis: auto;
 }
 
@@ -112,9 +113,13 @@ p {
     -webkit-text-fill-color: transparent;
 }
 
+.introright img {
+    margin: auto;
+}
+
 
 
 .mainbody {
-    padding-top: 10px;
-    padding-left: 40px;
+    width: 80%;
+    margin: auto;
 }

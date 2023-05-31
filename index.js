@@ -2,15 +2,13 @@ console.log("Hello there");
 
 const button = document.querySelector("button");
 
-function get_input() {
-    const num = prompt("What is your favourite number?");
-    var answer = "";
-    for (var i = 2; i < num; i++) {
-        if (num % i == 0) {
-            answer = answer + i + ',';
-        }
-    }
-    alert(answer);
-}
+var butt = document.querySelector("#test_button");
+var container = document.querySelector(".testroom");
 
-button = document.getElementById()
+var newbutt = document.createElement('button');
+newbutt.textContent = "Helllo";
+
+var myphoto = document.querySelector("#myphoto");
+myphoto.onclick = () => alert("HEY");
+
+container.appendChild(newbutt);
